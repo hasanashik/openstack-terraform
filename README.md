@@ -185,9 +185,3 @@ This will remove the VM, networking, floating IP, and security group created by 
 - Consider removing `insecure = true` and using valid CA certificates for your OpenStack endpoint.
 
 ---
-
-## License
-
-Choose a license (e.g., MIT) appropriate for your repository.
-
----
