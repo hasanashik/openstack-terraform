@@ -1,0 +1,15 @@
+---
+- name: Apache Playbook
+  hosts: all
+  become: yes
+ 
+  tasks:
+    - name: Install all available updates
+      apt:
+        upgrade: dist
+        update_cache: yes
+
+    - name: Install Apache
+      apt:
+        name: apache2
+        state: latest
