@@ -1,4 +1,4 @@
-# README: Provision an OpenStack VM, Install Apache with Ansible, and Test via Browser
+# Provision an OpenStack VM, Install Apache with Ansible, and Test via Browser
 
 This repository provisions a VM on OpenStack using Terraform, assigns a Floating IP, and automatically installs Apache HTTP Server with Ansible so you can test from a browser.
 
